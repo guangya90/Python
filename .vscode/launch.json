@@ -10,7 +10,9 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            //"stopOnEntry": false
+            // "stopOnEntry": false,
+            // "python.linting.flake8Enabled": true,
+            // "on.formatting.provider": "yapf",
         }
     ]
 }
